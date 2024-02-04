@@ -5,15 +5,15 @@ import java.util.logging.Logger;
 
 public class Game {
 
-    Logger logger = Logger.getLogger(getClass().getName());
+    private Logger logger = Logger.getLogger(getClass().getName());
 
-    Scanner scan = new Scanner(System.in);
-    byte input;
-    byte rand;
-    byte i;
-    byte winner = 0;
-    char[] box = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
-    boolean boxEmpty = false;
+    private Scanner scan = new Scanner(System.in);
+    private byte input;
+    private byte rand;
+    private byte i;
+    private byte winner = 0;
+    private char[] box = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    private boolean boxEmpty = false;
 
     public boolean isBoxEmpty() {
         return boxEmpty;
