@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 public class Game {
 
-    private static final Logger logger = Logger.getLogger(getClass().getName());
+    private final Logger logger = Logger.getLogger(getClass().getName());
 
     private static final Scanner scan = new Scanner(System.in);
     private byte input;
